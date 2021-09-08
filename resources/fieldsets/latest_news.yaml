@@ -1,0 +1,26 @@
+title: 'Latest News'
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      display: Title
+      type: text
+      icon: text
+      listable: hidden
+  -
+    handle: blog_posts_collection
+    field:
+      mode: select
+      display: 'Blog Posts Collection'
+      default: posts
+      type: collections
+      icon: collections
+      listable: hidden
+      max_items: 1
+  -
+    import: link
+    prefix: link_
+  -
+    import: section

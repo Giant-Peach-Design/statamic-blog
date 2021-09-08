@@ -1,0 +1,19 @@
+{
+    "name": "giantpeach/blog",
+    "autoload": {
+        "psr-4": {
+            "Giantpeach\\Blog\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Blog",
+            "description": "Blog addon"
+        },
+        "laravel": {
+            "providers": [
+                "Giantpeach\\Blog\\ServiceProvider"
+            ]
+        }
+    }
+}
